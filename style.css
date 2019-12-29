@@ -1,0 +1,206 @@
+/*
+ Theme Name:   arbites Child
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       Holger Koenemann
+ Author URI:   http://www.holgerkoenemann.de
+ Template:     arbites
+ Version:      0.5.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+
+
+
+
+#main-menu ul li:after{
+    display: none;
+}
+
+.header-wrapper.style-two{
+    padding: 20px 0;
+}
+
+.slider-4 {
+    padding: 0;
+}
+
+.blog-post.style-twel{
+    padding-top: 0;
+}
+
+@media(min-width:991px){
+    .site-logo{
+        text-align: right;
+    }
+    .container-fluid{
+        padding:0;
+    }
+}
+
+
+.subscribe-form-two{
+    margin:0;
+}
+
+.header-wrapper.style-two #main-menu ul li a {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.header-wrapper.style-two #main-menu ul li a::before,
+.header-wrapper.style-two #main-menu ul li a::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #017f8a;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+
+.header-wrapper.style-two #main-menu ul li a::before {
+    top: 0;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+.header-wrapper.style-two #main-menu ul li a::after {
+    bottom: 0;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.header-wrapper.style-two #main-menu ul li a:hover,
+.header-wrapper.style-two #main-menu ul li a:focus {
+    color: #017f8a;
+}
+
+
+.header-wrapper.style-two #main-menu ul li a:hover::before,
+.header-wrapper.style-two #main-menu ul li a:focus::before,
+.header-wrapper.style-two #main-menu ul li a:hover::after,
+.header-wrapper.style-two #main-menu ul li a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.header-wrapper.style-two #main-menu ul li a:hover::before,
+.header-wrapper.style-two #main-menu ul li a:focus::before,
+.header-wrapper.style-two #main-menu ul li a:hover::after,
+.header-wrapper.style-two #main-menu ul li a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.blog-post.style-three .entry-title span{
+    color:#9dd8c8;
+}
+
+.subscribe-form-two {
+    background-color: #2A3B50;
+    padding: 80px 0;
+}
+
+.subscribe-form-two .headline{
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #F58020;
+}
+
+
+
+
+
+@media(max-width:991px){
+    .blog-post.style-twel{
+        padding-bottom: 0;
+    }
+    .blog-post.style-three{
+        padding-top:0;
+    }
+
+    .subscribe-form-two form {
+        width: 82%;
+        margin: 0px 9%;
+        border-radius: 20px;
+        background: #f58020;
+        border: solid #f58020 2px;
+        margin-top: 2.5rem !important;
+    }
+    .subscribe-form-two button {
+        width: 35%;
+        letter-spacing: 1.5px;
+        background: #f58020;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+    }
+    .subscribe-form-two input {
+        width: 65%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background: #2a3b50;
+        text-align: center;
+    }
+
+    .footer-wrapper{
+        padding:20px 0 !important; 
+    }
+
+    .back-top{
+        display: none;
+    }
+}
+
+/* 
+.header-wrapper.style-two .logo img{
+    background: #fff;
+    height: 45px;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 2px 64px rgba(255,255,255,.2);
+}
+
+.header-wrapper.style-two #main-menu{
+    padding-top: 0;
+}
+
+.header-wrapper.style-two #main-menu ul.menu{
+    display: inline-block;
+    border: solid #fff 1px;
+    }
+
+    .current-menu-item {
+        background: #fff;
+    }
+
+    #main-menu ul li a{
+        color:#fff;
+    }
+
+    #main-menu ul li.current-menu-item a {
+        color:#000;
+    } */
+
+    
+    
